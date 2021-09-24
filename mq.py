@@ -22,17 +22,17 @@ channel.exchange_declare(
 
 order = {
     'id': str(uuid.uuid4()),
-    'user_email': 'a.s.a_808@msn.com',
-    'product': 'Leather Jacket',
+    'user_email': 'user_email@email.com',
+    'product': 'Laptop',
     'quantity': 1
 }
 
 
 customer = {
     'id': str(uuid.uuid4()),
-    'usere_email': 'aljaber@gmail.com',
-    'User Name': 'Abdulaziz Aljaber',
-    'User Age': 27
+    'usere_email': 'user_email@email.com',
+    'User Name': 'User1',
+    'User Age': 30
 }
 
 channel.basic_publish(
